@@ -18,7 +18,45 @@ header {
         text-align: center;
     }
 
-.space-between {
-        display: flex;
-        justify-content: space-between;
-    }
+.navbar {
+    display: flex;
+    gap: 190px;        /* space between links */
+    flex-wrap: wrap;  /* wraps to a new line if the screen is narrow */
+  }
+
+.homepage-text {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+}
+
+.footer {
+    text-align: center;
+    align-items: flex-end;
+    font-family: "Playfair Display", serif;
+    font-size: 12px;
+}
+
+.homepage-header {
+    background-image: url("https://t4.ftcdn.net/jpg/16/75/34/35/360_F_1675343590_akhM4Zvl8gEx0RBd2gHLGDpzJGsSa6za.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+a {
+  color: rgb(235, 117, 0);            /* normal link color */
+}
+
+a:visited {
+  color: hsl(101, 93%, 53%);            /* links the person has already clicked */
+}
+
+a:hover {
+  color: hsl(28, 100%, 63%);            /* when the mouse is over the link */
+}
+
+a:active {
+  color: #c11300;            /* while it's being clicked */
+}
+
