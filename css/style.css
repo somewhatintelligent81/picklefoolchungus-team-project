@@ -20,8 +20,8 @@ header {
 
 .navbar {
     display: flex;
-    gap: 190px;        /* space between links */
-    flex-wrap: wrap;  /* wraps to a new line if the screen is narrow */
+     display: flex;
+  justify-content: space-between;
   }
 
 .homepage-text {
