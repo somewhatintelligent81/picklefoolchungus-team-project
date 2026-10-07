@@ -46,6 +46,11 @@ header {
     color: white;
 }
 
+#Img {
+    display: flex;
+    justify-content: flex-end;
+}
+
 a {
   color: rgb(235, 117, 0);            /* normal link color */
 }
