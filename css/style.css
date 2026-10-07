@@ -10,18 +10,20 @@ header {
 }
 
 
+
 .teach {
         color: rgb(49, 196, 0);
     }
 
 .center {
         text-align: center;
+         align-items: center;
     }
 
 .navbar {
     display: flex;
      display: flex;
-  justify-content: space-between;
+     justify-content: space-between;
   }
 
 .homepage-text {
