@@ -20,8 +20,8 @@ header {
 
 .Img-next-to-words {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .center {
