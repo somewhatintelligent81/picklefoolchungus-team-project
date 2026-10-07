@@ -13,7 +13,16 @@ header {
 
 .teach {
         color: rgb(49, 196, 0);
+        display: flex;
+        align-items: center;
+        
     }
+
+.Img-next-to-words {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 .center {
         text-align: center;
@@ -46,10 +55,6 @@ header {
     color: white;
 }
 
-#Img {
-    display: flex;
-    justify-content: flex-end;
-}
 
 a {
   color: rgb(235, 117, 0);            /* normal link color */
