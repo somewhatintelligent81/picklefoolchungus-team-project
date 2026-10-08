@@ -63,4 +63,19 @@ a:hover {
 a:active {
   color: #c11300;            /* while it's being clicked */
 }
-
+        .center{
+  display: block;
+  margin: 0 auto;
+}
+   .aftermath{
+    font-size: 20px;
+    color: orangered;
+   }
+   #ol{
+       width: 750px;
+  margin-left: 0;
+  font-size: 20px;
+}
+.words{
+    font-size: 20px;
+}
